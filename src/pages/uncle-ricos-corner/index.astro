@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+const posts = await getCollection('rico');
+---
+<Base title="Uncle Rico's Corner" description="Longer stories from David McMahon's athletic career: Westerville football and rugby, Butler football, and the lessons and players along the way." breadcrumbs={[{ name: "Uncle Rico's Corner", path: '/uncle-ricos-corner/' }]}>
+  <div class="wrap page">
+    <h1>Uncle Rico's Corner</h1>
+    <p class="sub">Every town has one guy who still talks about the glory days. This is where I tell the stories properly, with the box scores, the names, and what I learned.</p>
+    <ul class="list">
+      {posts.map((p) => (
+        <li><a href={`/uncle-ricos-corner/${p.data.slug}/`}><h2>{p.data.title}</h2><p>{p.data.description}</p></a></li>
+      ))}
+    </ul>
+  </div>
+</Base>

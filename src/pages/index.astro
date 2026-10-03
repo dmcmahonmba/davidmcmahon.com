@@ -1,0 +1,39 @@
+---
+import { getEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+const dayton = await getEntry('rico', 'the-day-butler-finally-beat-dayton');
+const summit = await getEntry('blog', 'chicken-soup-for-the-leadership-soul-what-my-first-campbell-trophy-summit-taught-me-about-who-i-want-to-be');
+const orm = await getEntry('blog', 'what-is-online-reputation-management');
+const cards = [
+  { kicker: "Uncle Rico's Corner", href: '/uncle-ricos-corner/the-day-butler-finally-beat-dayton/', title: dayton!.data.title, text: dayton!.data.description, feat: true },
+  { kicker: 'Leadership', href: `/${summit!.data.slug}/`, title: 'What My First Campbell Trophy Summit Taught Me', text: 'Three days at Stanford and who I want to be as a leader.' },
+  { kicker: 'Reputation', href: `/${orm!.data.slug}/`, title: orm!.data.title, text: orm!.data.description },
+];
+---
+<Base title={SITE.title} description={SITE.description} type="home" headerTheme="blue">
+  <section class="hero"><div class="wrap">
+    <div>
+      <div class="eyebrow">Executive &middot; Butler MBA &middot; Sarasota, FL</div>
+      <h1>David (Dave) McMahon</h1>
+      <p class="lede">Quiet leadership, built on a football field and in a flat organization. Today I advise on reputation management, SEO, branding, and AI implementation.</p>
+      <a class="btn" href="/resume/">View my resume</a>
+    </div>
+    <img class="photo" src={SITE.image} alt="David McMahon" width="340" height="340" />
+  </div></section>
+  <section class="stats"><div class="wrap">
+    <div class="stat"><b>$5M to $19M</b><span>revenue growth at NetReputation</span></div>
+    <div class="stat"><b>35</b><span>person global team across five countries</span></div>
+    <div class="stat"><b>11 years</b><span>managing people</span></div>
+    <div class="stat"><b>3x</b><span>Campbell Trophy Summit attendee</span></div>
+  </div></section>
+  <section class="writing"><div class="wrap">
+    <h2>Latest writing</h2>
+    <div class="grid">
+      {cards.map((c) => (
+        <div class={`card${c.feat ? ' feat' : ''}`}><small>{c.kicker}</small><h3><a href={c.href}>{c.title}</a></h3><p>{c.text}</p></div>
+      ))}
+    </div>
+    <a class="link all" href="/blog-posts/">All writing</a>
+  </div></section>
+</Base>

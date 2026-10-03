@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+const entry = await getEntry('pages', 'about-david');
+const { Content } = await render(entry!);
+---
+<Base title="About David McMahon" description="David (Dave) McMahon is a Butler University MBA and former Division I football captain who now works as a fractional consultant in reputation management, SEO, branding, and AI implementation." type="profile" breadcrumbs={[{ name: 'About David', path: '/about-david/' }]}>
+  <div class="wrap page">
+    <h1>About David McMahon</h1>
+    <p class="sub">{entry!.data.headline}</p>
+    <div class="prose" style="margin-top:28px"><Content /></div>
+  </div>
+</Base>

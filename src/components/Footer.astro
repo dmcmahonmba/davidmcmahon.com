@@ -1,0 +1,15 @@
+---
+import { SOCIALS } from '../data/site';
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; {new Date().getFullYear()} David McMahon, Sarasota, Florida</span>
+    <nav aria-label="Social profiles">
+      <ul>
+        {SOCIALS.map((s) => (
+          <li><a href={s.url} rel="me noopener" target="_blank">{s.name}<span class="sr"> (opens in a new tab)</span></a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</footer>

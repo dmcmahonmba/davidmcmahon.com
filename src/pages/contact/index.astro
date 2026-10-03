@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Contact" description="Contact David McMahon about fractional consulting in reputation management, SEO, branding, and AI implementation." breadcrumbs={[{ name: 'Contact', path: '/contact/' }]}>
+  <div class="wrap page">
+    <h1>Contact</h1>
+    <p class="sub">Tell me what you are working on. I read every message.</p>
+    <form class="contact" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
+      <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+      <label for="name">Name<input id="name" name="name" type="text" required autocomplete="name" /></label>
+      <label for="email">Email<input id="email" name="email" type="email" required autocomplete="email" /></label>
+      <label for="message">Message<textarea id="message" name="message" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div>
+</Base>

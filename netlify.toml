@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # PREVIEW ONLY: tells search engines not to index this site.
+  # DELETE THIS LINE AT LAUNCH (see LAUNCH-CHECKLIST.md).
+  PUBLIC_NOINDEX = "true"
+  # Add your GA4 Measurement ID (looks like G-XXXXXXXXXX) at launch.
+  # PUBLIC_GA_ID = "G-XXXXXXXXXX"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

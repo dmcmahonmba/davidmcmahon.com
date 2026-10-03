@@ -1,0 +1,94 @@
+---
+import { SITE, SOCIALS } from '../data/site';
+interface Props {
+  type?: 'home' | 'profile' | 'article' | 'page';
+  title: string;
+  description: string;
+  path: string;
+  datePublished?: Date;
+  dateModified?: Date;
+  breadcrumbs?: { name: string; path: string }[];
+}
+const { type = 'page', title, description, path, datePublished, dateModified, breadcrumbs = [] } = Astro.props;
+const abs = (p: string) => new URL(p, SITE.url).href;
+const personId = `${SITE.url}/#person`;
+const websiteId = `${SITE.url}/#website`;
+
+const person = {
+  '@type': 'Person',
+  '@id': personId,
+  name: SITE.name,
+  alternateName: SITE.alternateNames,
+  givenName: 'David',
+  familyName: 'McMahon',
+  url: SITE.url + '/',
+  image: abs(SITE.image),
+  jobTitle: SITE.jobTitle,
+  description: SITE.description,
+  disambiguatingDescription: SITE.disambiguation,
+  alumniOf: {
+    '@type': 'CollegeOrUniversity',
+    name: 'Butler University',
+    url: 'https://www.butler.edu',
+  },
+  homeLocation: {
+    '@type': 'Place',
+    address: { '@type': 'PostalAddress', addressLocality: 'Sarasota', addressRegion: 'FL', addressCountry: 'US' },
+  },
+  knowsAbout: SITE.knowsAbout,
+  sameAs: SOCIALS.filter((s) => s.inSchema).map((s) => s.url),
+};
+
+const website = {
+  '@type': 'WebSite',
+  '@id': websiteId,
+  url: SITE.url + '/',
+  name: SITE.title,
+  inLanguage: 'en-US',
+  publisher: { '@id': personId },
+};
+
+const graph: any[] = [person, website];
+
+if (type === 'profile') {
+  graph.push({
+    '@type': 'ProfilePage',
+    '@id': abs(path) + '#profilepage',
+    url: abs(path),
+    name: title,
+    isPartOf: { '@id': websiteId },
+    mainEntity: { '@id': personId },
+    about: { '@id': personId },
+  });
+} else if (type === 'article') {
+  graph.push({
+    '@type': 'BlogPosting',
+    '@id': abs(path) + '#article',
+    mainEntityOfPage: abs(path),
+    headline: title,
+    description,
+    url: abs(path),
+    author: { '@id': personId },
+    publisher: { '@id': personId },
+    isPartOf: { '@id': websiteId },
+    ...(datePublished && { datePublished: datePublished.toISOString() }),
+    ...((dateModified ?? datePublished) && { dateModified: (dateModified ?? datePublished)!.toISOString() }),
+  });
+} else if (type === 'page') {
+  graph.push({ '@type': 'WebPage', '@id': abs(path) + '#webpage', url: abs(path), name: title, isPartOf: { '@id': websiteId }, about: { '@id': personId } });
+}
+
+if (breadcrumbs.length) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    itemListElement: [{ name: 'Home', path: '/' }, ...breadcrumbs].map((b, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: b.name,
+      item: abs(b.path),
+    })),
+  });
+}
+const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+<script type="application/ld+json" set:html={json} />

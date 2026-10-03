@@ -1,0 +1,3 @@
+# Old WordPress portfolio page becomes the resume page
+/portfolio    /resume/    301
+/portfolio/   /resume/    301

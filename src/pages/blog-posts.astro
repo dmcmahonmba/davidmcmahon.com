@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+const posts = (await getCollection('blog')).sort((a, b) => (b.data.date?.getTime() ?? 0) - (a.data.date?.getTime() ?? 0));
+const fmt = (d?: Date) => d?.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+<Base title="Blog" description="Writing by David McMahon on leadership, reputation management, review management, and the lessons that stuck." breadcrumbs={[{ name: 'Blog', path: '/blog-posts/' }]}>
+  <div class="wrap page">
+    <h1>Blog</h1>
+    <p class="sub">Leadership, reputation, and the lessons that stuck.</p>
+    <ul class="list">
+      {posts.map((p) => (
+        <li><a href={`/${p.data.slug}/`}>{p.data.date && <time datetime={p.data.date.toISOString()}>{fmt(p.data.date)}</time>}<h2>{p.data.title}</h2><p>{p.data.description}</p></a></li>
+      ))}
+    </ul>
+  </div>
+</Base>

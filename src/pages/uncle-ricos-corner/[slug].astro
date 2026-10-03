@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+export async function getStaticPaths() {
+  const posts = await getCollection('rico');
+  return posts.map((post) => ({ params: { slug: post.data.slug }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const draft = post.data.status === 'draft';
+---
+<Base title={post.data.title} description={post.data.description} type="article" datePublished={post.data.date} noindex={draft} breadcrumbs={[{ name: "Uncle Rico's Corner", path: '/uncle-ricos-corner/' }, { name: post.data.title, path: `/uncle-ricos-corner/${post.data.slug}/` }]}>
+  <article class="wrap page">
+    {draft && <p class="draft-banner">Draft. Not indexed. Confirm the facts in the post, then set <code>status: published</code>.</p>}
+    <h1 style="font-size:40px">{post.data.title}</h1>
+    <p class="meta">By {post.data.author}</p>
+    <div class="prose" style="margin-top:28px"><Content /></div>
+  </article>
+</Base>

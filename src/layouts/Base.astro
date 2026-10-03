@@ -1,0 +1,65 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Schema from '../components/Schema.astro';
+import { SITE } from '../data/site';
+
+interface Props {
+  title: string;
+  description: string;
+  type?: 'home' | 'profile' | 'article' | 'page';
+  breadcrumbs?: { name: string; path: string }[];
+  datePublished?: Date;
+  dateModified?: Date;
+  noindex?: boolean;
+  headerTheme?: 'light' | 'blue';
+}
+const { title, description, type = 'page', breadcrumbs, datePublished, dateModified, noindex = false, headerTheme = 'light' } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = new URL(path, SITE.url).href;
+const image = new URL(SITE.image, SITE.url).href;
+const blockIndexing = noindex || import.meta.env.PUBLIC_NOINDEX === 'true';
+const ga = import.meta.env.PUBLIC_GA_ID;
+const fullTitle = path === '/' ? title : `${title} | ${SITE.name}`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {blockIndexing && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="google-site-verification" content={SITE.verification} />
+    <meta property="og:type" content={type === 'article' ? 'article' : 'website'} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600&display=swap" />
+    <Schema type={type} title={title} description={description} path={path} datePublished={datePublished} dateModified={dateModified} breadcrumbs={breadcrumbs} />
+    {ga && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></script>
+        <script is:inline define:vars={{ ga }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', ga);
+        </script>
+      </>
+    )}
+  </head>
+  <body class={`theme-${headerTheme}`}>
+    <a class="skip" href="#main">Skip to content</a>
+    <Header current={path} />
+    <main id="main"><slot /></main>
+    <Footer />
+  </body>
+</html>
