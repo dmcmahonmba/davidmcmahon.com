@@ -12,9 +12,11 @@ David (Dave to most people) is a Butler University MBA and a former Division I f
 
 Today David works as a fractional consultant in reputation management, SEO, branding, and AI implementation. He lives in Sarasota, Florida.
 
-## Westerville, Ohio: football and rugby
+## Cleveland and Westerville, Ohio: football and rugby
 
-David was born in Cleveland and raised in Westerville, outside Columbus. He is the middle child of three and the only boy between two sisters. He played baseball and football growing up, gave up baseball his junior year to focus on football, and then played rugby for the Westerville Worms in the spring of his senior year. The Worms won the Ohio and Midwest championships and reached the national final. More stories like this live in [Uncle Rico's Corner](/uncle-ricos-corner/).
+David was born in Cleveland and raised in Westerville, outside Columbus. He is the middle child of three and the only boy between two sisters. He played baseball and football growing up, gave up baseball his junior year to focus on football, and then played rugby for the Westerville Worms in the spring of his senior year. The Worms won the Ohio and Midwest championships and reached the national final. David is also a loyal Cleveland sports fan. Rooting for Cleveland shaped his underdog mindset long before Butler, and it still tests his loyalty and his resolve to stick it out when things get tough.
+
+More stories like this live in [Uncle Rico's Corner](/uncle-ricos-corner/).
 
 ## Butler football
 
