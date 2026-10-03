@@ -32,6 +32,12 @@ A career move brought David and his wife to Sarasota, where they are raising two
 
 David is a three-time attendee of the William V. Campbell Trophy Leadership Summit at Stanford University, hosted by the National Football Foundation. He writes about what he learns there, including [what his first Summit taught him](/chicken-soup-for-the-leadership-soul-what-my-first-campbell-trophy-summit-taught-me-about-who-i-want-to-be/) and [three days at Stanford in 2025](/what-three-days-at-stanford-taught-me-about-leadership-branding-and-the-coach-who-changed-silicon-valley/).
 
+## Byrider: where reputation management began
+
+David's reputation career started at Byrider, the vertically integrated buy-here-pay-here auto group. The CFO hired him to evaluate 13 company-owned stores for compliance with an Ohio Attorney General consent decree. That work led to him becoming the youngest franchise consultant in the company's 25-year history at the time.
+
+It was an unusual education. David never got stuck in a silo. He worked across vehicle purchasing, reconditioning, service, sales, marketing, underwriting, and collections, learned from the best people in each department, and taught classes on sales, collections, and service. The goal was always the same: help franchisees grow. When Byrider partnered with Podium, he found his calling. The business combined three of the top five most-complained-about industries under one roof, and he traveled the country teaching locations how to run a review-request process, helping hundreds of them climb above a 4.5-star average. See the [resume](/resume/) for the full story.
+
 ## Reputation management, SEO, and AI
 
 David's reputation management work spans entity SEO, schema, and Google Knowledge Panels, content removal and promotion at volume, local search and review management, and tracking how brands appear in AI answers across Gemini, Google AI Mode, and ChatGPT. He made AI a default operating tool in 2023, always with governance and human judgment at the center. See the [resume](/resume/) for details, or [get in touch](/contact/).
