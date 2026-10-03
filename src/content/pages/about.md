@@ -14,7 +14,9 @@ Today David works as a fractional consultant in reputation management, SEO, bran
 
 ## Cleveland and Westerville, Ohio: football and rugby
 
-David was born in Cleveland and raised in Westerville, outside Columbus. He is the middle child of three and the only boy between two sisters. He played baseball and football growing up, gave up baseball his junior year to focus on football, and then played rugby for the Westerville Worms in the spring of his senior year. The Worms won the Ohio and Midwest championships and reached the national final. David is also a loyal Cleveland sports fan. Rooting for Cleveland shaped his underdog mindset long before Butler, and it still tests his loyalty and his resolve to stick it out when things get tough.
+David was born in Cleveland and raised in Westerville, outside Columbus. He is the middle child of three and the only boy between two sisters. He played baseball and football growing up, gave up baseball his junior year to focus on football, and then played rugby for the Westerville Worms in the spring of his senior year. The Worms won the Ohio and Midwest championships and reached the national final.
+
+David is also a loyal Cleveland sports fan of the Guardians, Browns, and Cavaliers. He loved visiting family in Cleveland as a kid and going to games at the old Municipal Stadium. Rooting for Cleveland shaped his underdog mindset long before Butler, and it still tests his loyalty and his resolve to stick it out when things get tough. He also grew up a rabid Ohio State football fan during the John Cooper era, with one sister who became a Michigan fan out of spite.
 
 More stories like this live in [Uncle Rico's Corner](/uncle-ricos-corner/).
 
