@@ -1,7 +1,6 @@
 # davidmcmahon.com launch checklist
 
 ## Before launch (content)
-- [ ] Instagram: replace the emma_and_elsie link in src/data/site.ts with David's personal handle if he wants one in the schema (set inSchema: true). It is a footer link only for now.
 - [ ] X: confirm https://x.com/researchcte4me is the right profile.
 - [ ] Substack: confirm https://substack.com/@davidmcmahon55 (swap for the publication URL if there is one).
 - [ ] Replace public/images/david-mcmahon.jpg with the final headshot (at least 800 x 800).

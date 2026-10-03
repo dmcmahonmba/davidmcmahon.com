@@ -29,7 +29,7 @@ export const SITE = {
 // inSchema=false keeps a link in the footer but out of the Person sameAs list.
 export const SOCIALS = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/davidmcmahonmba', inSchema: true },
-  { name: 'Instagram', url: 'https://www.instagram.com/emma_and_elsie/', inSchema: false }, // TODO: dog account. Swap for David's personal handle, then set inSchema: true
+  { name: 'Instagram', url: 'https://www.instagram.com/emma_and_elsie/', inSchema: true },
   { name: 'X', url: 'https://x.com/researchcte4me', inSchema: true }, // TODO: confirm this is the right handle
   { name: 'Medium', url: 'https://medium.com/@davidmcmahon11', inSchema: true },
   { name: 'Crunchbase', url: 'https://www.crunchbase.com/person/david-mcmahon-ecc1', inSchema: true },
