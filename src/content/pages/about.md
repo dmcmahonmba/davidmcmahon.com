@@ -16,13 +16,17 @@ Today David works as a fractional consultant in reputation management, SEO, bran
 
 David was born in Cleveland and raised in Westerville, outside Columbus. He is the middle child of three and the only boy between two sisters. He played baseball and football growing up, gave up baseball his junior year to focus on football, and then played rugby for the Westerville Worms in the spring of his senior year. The Worms won the Ohio and Midwest championships and reached the national final.
 
+At Westerville North High School, David played both sides of the ball. As a shy kid from small-town Ohio, he dreamed of playing middle linebacker for Ohio State. Senior year, his coaches asked him to move to the offensive line for the good of the team. He cried with his coach, said yes, and learned an early lesson: sometimes the most meaningful thing you can do is give something up so the people around you can succeed.
+
 David is also a loyal Cleveland sports fan of the Guardians, Browns, and Cavaliers. He loved visiting family in Cleveland as a kid and going to games at the old Municipal Stadium. Rooting for Cleveland shaped his underdog mindset long before Butler, and it still tests his loyalty and his resolve to stick it out when things get tough. He also grew up a rabid Ohio State football fan during the John Cooper era, with one sister who became a Michigan fan out of spite.
 
 More stories like this live in [Uncle Rico's Corner](/uncle-ricos-corner/).
 
 ## Butler football
 
-David played football at Butler University, earning first-team All-Pioneer Football League honors as a defensive lineman in 2004, and was a team captain in his senior year and his fifth year. A defensive end, his playing career ended with a knee injury on October 7, 2006, a week after Butler beat Dayton, ending an 11-game losing streak in the series. The Butler Way, rooted in the legacy of coach Tony Hinkle and built on humility, passion, unity, servanthood, and thankfulness, became the standard he has carried into every role since.
+David played football at Butler University, earning first-team All-Pioneer Football League honors as a defensive lineman in 2004, and was a team captain in his senior year and his fifth year. A defensive end, his playing career ended with a knee injury on October 7, 2006, a week after Butler beat Dayton, ending an 11-game losing streak in the series. When the coaches needed help at defensive end, he switched positions and had the best season of his career there. He played through significant injuries, a winless season, and head coach and defensive coordinator changes nearly every year, and he came back for a fifth year during his MBA to hang on to one more season. In 2007, the National Football Foundation named him to the inaugural NFF Hampshire Honor Society.
+
+The Butler Way, rooted in the legacy of coach Tony Hinkle and built on humility, passion, unity, servanthood, and thankfulness, became the standard he has carried into every role since. He saw it lived out in small ways, like a young assistant basketball coach named Brad Stevens stopping by the training room to ask athletes from other teams about their recoveries and their lives.
 
 ## Indianapolis and the Butler MBA
 
