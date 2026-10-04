@@ -42,5 +42,6 @@ export const NAV = [
   { label: 'Resume', href: '/resume/' },
   { label: 'Blog', href: '/blog-posts/' },
   { label: "Uncle Rico's Corner", href: '/uncle-ricos-corner/' },
+  { label: 'Gallery', href: '/gallery/' },
   { label: 'Contact', href: '/contact/' },
 ];

@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+const photos = [
+  { src: '/images/butler-sideline.jpg', w: 960, h: 720, alt: 'Butler Bulldogs defenders on the sideline bench listening to a coach wearing a headset, number 55 in the center.', caption: 'On the Butler sideline, listening to the defensive game plan.' },
+  { src: '/images/campbell-summit-stanford.jpg', w: 920, h: 1600, alt: 'David McMahon standing beside the William V. Campbell Trophy on a rooftop overlooking Stanford Stadium at sunset.', caption: 'With the William V. Campbell Trophy at the Leadership Summit at Stanford.' },
+];
+---
+<Base title="Gallery" description="Photos from David McMahon's football career at Butler and the Campbell Trophy Leadership Summit at Stanford." breadcrumbs={[{ name: 'Gallery', path: '/gallery/' }]}>
+  <div class="wrap page">
+    <h1>Gallery</h1>
+    <p class="sub">Football, Butler, and the people and places along the way.</p>
+    <div class="gallery">
+      {photos.map((p) => (
+        <figure>
+          <img src={p.src} width={p.w} height={p.h} alt={p.alt} loading="lazy" />
+          <figcaption>{p.caption}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</Base>
+<style>
+  .gallery{columns:2 320px;column-gap:28px;margin-top:32px}
+  .gallery figure{break-inside:avoid;margin:0 0 28px}
+  .gallery img{width:100%;height:auto;display:block;border:1px solid var(--gray-light)}
+  .gallery figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
+</style>

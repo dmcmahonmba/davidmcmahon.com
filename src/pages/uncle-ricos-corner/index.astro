@@ -5,8 +5,13 @@ const posts = await getCollection('rico');
 ---
 <Base title="Uncle Rico's Corner" description="Longer stories from David McMahon's athletic career: Westerville football and rugby, Butler football, and the lessons and players along the way." breadcrumbs={[{ name: "Uncle Rico's Corner", path: '/uncle-ricos-corner/' }]}>
   <div class="wrap page">
-    <h1>Uncle Rico's Corner</h1>
-    <p class="sub">Every town has one guy who still talks about the glory days. This is where I tell the stories properly, with the box scores, the names, and what I learned.</p>
+    <div class="rico-head">
+      <div>
+        <h1>Uncle Rico's Corner</h1>
+        <p class="sub">Every town has one guy who still talks about the glory days. This is where I tell the stories properly, with the box scores, the names, and what I learned.</p>
+      </div>
+      <img class="rico-photo" src="/images/uncle-rico.jpg" width="281" height="210" alt="David McMahon in a headband and vest, cocking a football to throw" />
+    </div>
     <ul class="list">
       {posts.map((p) => (
         <li><a href={`/uncle-ricos-corner/${p.data.slug}/`}><h2>{p.data.title}</h2><p>{p.data.description}</p></a></li>
@@ -14,3 +19,8 @@ const posts = await getCollection('rico');
     </ul>
   </div>
 </Base>
+<style>
+  .rico-head{display:flex;gap:40px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  .rico-head>div{flex:1 1 380px;min-width:0}
+  .rico-photo{border:3px solid var(--accent);padding:4px;background:#fff;max-width:100%;height:auto;flex:0 0 auto}
+</style>
