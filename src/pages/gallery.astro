@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { GALLERY } from '../data/gallery';
+import { GALLERY, FAMILY_TILES } from '../data/gallery';
 const sections = Object.entries(GALLERY);
 ---
 <Base title="Gallery" description="Photos and video from David McMahon's life: Butler football, rugby, the Campbell Trophy Leadership Summit, and family in Sarasota and Indianapolis." breadcrumbs={[{ name: 'Gallery', path: '/gallery/' }]}>
@@ -32,6 +32,17 @@ const sections = Object.entries(GALLERY);
     {sections.map(([name, photos]) => (
       <section>
         <h2>{name}</h2>
+        {name === 'Family and dogs' && (
+          <div class="tiles">
+            {FAMILY_TILES.map((t) => (
+              <figure class="tile">
+                <video muted loop playsinline preload="none" poster={t.poster} aria-label={t.label} data-src={t.src}></video>
+                <button type="button" class="sound" aria-pressed="false" aria-label={`Sound for ${t.label}`}>Tap for sound</button>
+                <figcaption>{t.caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
         <div class="gallery">
           {photos.map((p) => (
             <figure>
@@ -44,6 +55,31 @@ const sections = Object.entries(GALLERY);
     ))}
   </div>
 </Base>
+<script>
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const tiles = Array.from(document.querySelectorAll<HTMLElement>('.tile'));
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
+    entries.forEach((en) => {
+      const v = en.target.querySelector('video') as HTMLVideoElement;
+      if (en.isIntersecting) {
+        if (!v.currentSrc && v.dataset.src) { v.src = v.dataset.src; }
+        if (!reduce) v.play().catch(() => {});
+      } else { v.pause(); }
+    });
+  }, { threshold: 0.4 }) : null;
+  tiles.forEach((t) => {
+    const v = t.querySelector('video') as HTMLVideoElement;
+    const b = t.querySelector('.sound') as HTMLButtonElement;
+    if (io) io.observe(t); else if (v.dataset.src) v.src = v.dataset.src;
+    b.addEventListener('click', () => {
+      if (!v.src && v.dataset.src) v.src = v.dataset.src;
+      v.muted = !v.muted;
+      if (!v.muted) v.play().catch(() => {});
+      b.setAttribute('aria-pressed', String(!v.muted));
+      b.textContent = v.muted ? 'Tap for sound' : 'Mute';
+    });
+  });
+</script>
 <style>
   h2{margin-top:44px}
   .reel h2{margin-top:44px}
@@ -56,4 +92,10 @@ const sections = Object.entries(GALLERY);
   .reel video{width:100%;height:auto;aspect-ratio:9/16;display:block;background:var(--blue-deep);border:1px solid var(--gray-light);object-fit:cover}
   .reel figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
   @media (max-width:760px){.reels{grid-template-columns:1fr;gap:0}}
+  .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,220px));gap:28px;margin:20px 0 32px;align-items:start}
+  .tile{margin:0;position:relative}
+  .tile video{width:100%;height:auto;aspect-ratio:9/16;display:block;background:var(--blue-deep);border:1px solid var(--gray-light);object-fit:cover}
+  .tile figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
+  .sound{position:absolute;right:8px;top:8px;background:rgba(11,27,51,.82);color:#fff;border:1px solid var(--accent);border-radius:999px;padding:6px 12px;font:600 12px Inter,sans-serif;cursor:pointer}
+  @media (max-width:640px){.tiles{grid-template-columns:1fr 1fr;gap:14px}}
 </style>

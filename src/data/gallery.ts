@@ -23,12 +23,20 @@ export const GALLERY: Record<string, Photo[]> = {
     { src: "/images/gallery/nolan-skimboard-flag-shorts.jpg", w: 900, h: 1200, alt: "A boy in flag-print shorts carrying a skimboard into the Gulf.", caption: "Nolan skimboarding on Longboat Key." },
     { src: "/images/gallery/nolan-lily-creek.jpg", w: 900, h: 1200, alt: "A boy and a girl exploring the bank of a creek in a park.", caption: "Nolan and Lily scouting the creek." },
     { src: "/images/gallery/lily-nolan-parade-gatorade.jpg", w: 900, h: 1200, alt: "A girl and a boy drinking from cups while watching a parade on Anna Maria Island.", caption: "Lily and Nolan watching the Anna Maria Island Fourth of July parade, 2026." },
+    { src: "/images/gallery/nolan-bodyboard-longboat.jpg", w: 900, h: 1200, alt: "A boy in a red shirt standing on a blue bodyboard on a Longboat Key beach.", caption: "Nolan and his bodyboard, Longboat Key." },
+    { src: "/images/gallery/lily-bodyboard-longboat.jpg", w: 900, h: 1200, alt: "A young girl in sunglasses holding an orange bodyboard on white sand.", caption: "Lily with her bodyboard, Longboat Key." },
+    { src: "/images/gallery/lily-friend-hilton-head-2022.jpg", w: 900, h: 1200, alt: "Two toddlers standing on a yellow bodyboard on the beach at Hilton Head.", caption: "Lily and a friend on our annual Hilton Head trip, 2022." },
+    { src: "/images/gallery/lily-snow-tubing-noblesville-2024.jpg", w: 900, h: 1200, alt: "A young girl in a winter coat and hat pulling a snow tube across a snowy hill.", caption: "Lily pulling her tube, snow tubing in Noblesville, Indiana, Christmas 2024." },
     { src: "/images/gallery/dave-lily-selby-gardens-halloween-2021.jpg", w: 900, h: 1200, alt: "David McMahon in an orange headband and Browns jersey holding his young daughter Lily in a bamboo garden.", caption: "Lily and me at the Selby Gardens Halloween party, 2021." },
     { src: "/images/gallery/emma-squirrel-watching-warfleigh.jpg", w: 900, h: 900, alt: "Four views of a German shepherd's ears from behind as she watches the sidewalk ahead.", caption: "Emma, squirrel watching on a walk in Warfleigh." },
     { src: "/images/gallery/dogs-white-river-flood-wall.jpg", w: 900, h: 1200, alt: "Two dogs on leashes walking along the White River flood wall.", caption: "Emma and Elsie walking the White River flood wall in Warfleigh." },
     { src: "/images/gallery/emma-sunflowers-2015.jpg", w: 900, h: 900, alt: "A German shepherd sitting in front of tall sunflowers in a backyard garden.", caption: "Emma in front of my sunflowers, 2015." },
     { src: "/images/gallery/elsie-bulldog-closeup.jpg", w: 900, h: 1200, alt: "Close-up of a white and brown bulldog on a deck.", caption: "Elsie. Classic bulldog face." },
     { src: "/images/gallery/elsie-butler-cornhole.jpg", w: 900, h: 1200, alt: "A white bulldog sitting next to a blue Butler Bulldogs cornhole board.", caption: "Elsie, with the custom Butler cornhole boards." },
+  ],
+  "Work and industry": [
+    { src: "/images/gallery/netreputation-team-office.jpg", w: 800, h: 654, alt: "A group of NetReputation team members posing together in an office with a large plant.", caption: "With the NetReputation team." },
+    { src: "/images/gallery/ahrefs-evolve-2025.jpg", w: 900, h: 652, alt: "Five attendees wearing lanyards in front of an Ahrefs sign at Ahrefs Evolve 2025.", caption: "At Ahrefs Evolve, 2025. I'm second from left." },
   ],
   "Weddings, games and road trips": [
     { src: "/images/gallery/browns-colts-2011.jpg", w: 900, h: 675, alt: "A couple in Browns and Colts jerseys at a football game tailgate.", caption: "Niki and me at a Browns-Colts game, a few weeks before our 2011 wedding." },
@@ -49,4 +57,10 @@ export const RICO_PHOTOS: Photo[] = [
   { src: "/images/gallery/gd-hyryder-shirt.jpg", w: 900, h: 1200, alt: "The back of a gray shirt with an orange GD Hyryder logo.", caption: "The jam band shirt I always wanted. A nod to my old JD Byrider days. (GD Hyryder is a well-known Indianapolis jam band whose name pokes fun at JD Byrider.)" },
   { src: "/images/gallery/wedding-dance-headband.jpg", w: 750, h: 494, alt: "David McMahon in a bow tie and white headband dancing at a wedding reception.", caption: "Wedding dance floor, headband on." },
   { src: "/images/gallery/nolan-mohawk.jpg", w: 900, h: 1200, alt: "A smiling boy with a spiky mohawk haircut.", caption: "Nolan and his mohawk." },
+];
+
+export type Tile = { src: string; poster: string; caption: string; label: string };
+export const FAMILY_TILES: Tile[] = [
+  { src: "/video/snow-tubing-highlights.mp4", poster: "/video/snow-tubing-highlights-poster.jpg", label: "Snow tubing highlights", caption: "Snow tubing in Noblesville, Indiana, Christmas 2024. Lily vs. Uncle Clay. The kids now assume it snows 365 days a year in Indiana." },
+  { src: "/video/lily-hilton-head-2022.mp4", poster: "/video/lily-hilton-head-2022-poster.jpg", label: "Lily at Hilton Head", caption: "Lily at Hilton Head, October 2022." },
 ];
