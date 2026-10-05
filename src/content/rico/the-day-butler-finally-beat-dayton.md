@@ -2,7 +2,7 @@
 title: "The Day Butler Finally Beat Dayton"
 slug: the-day-butler-finally-beat-dayton
 series: uncle-ricos-corner
-status: draft
+status: published
 author: David McMahon
 description: "Butler 23, Dayton 20 on September 30, 2006: a blocked extra point, a late safety, and the first win over the Flyers in 11 tries."
 keywords: ["David McMahon", "Butler football", "Butler vs Dayton 2006", "Pioneer Football League", "Uncle Rico's Corner"]
@@ -40,7 +40,7 @@ On the other side, T.J. Brown threw for 267 yards and three touchdowns for us, i
 
 ## The block
 
-Late in the game, Dayton scored to pull within one at 21-20. Then came the extra point that would have put them ahead. Rich and I had a special scheme for blocking kicks, and that afternoon it worked. Rich came up the middle and got his hands on it, and the kick never got over the line. That block was the difference in the game until the safety.
+Late in the game, Dayton scored to pull within one at 21-20. Then came the extra point that would have put them ahead. Richard Alcala came up the middle, got his hands on the kick, and it never got over the line. The block was his, and it was the difference in the game until the safety.
 
 ## The safety
 

@@ -5,8 +5,6 @@
 [build.environment]
   NODE_VERSION = "22"
   # PREVIEW ONLY: tells search engines not to index this site.
-  # DELETE THIS LINE AT LAUNCH (see LAUNCH-CHECKLIST.md).
-  PUBLIC_NOINDEX = "true"
   PUBLIC_GA_ID = "G-CS0Z297CZP"
 
 [[headers]]
