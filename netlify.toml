@@ -7,8 +7,7 @@
   # PREVIEW ONLY: tells search engines not to index this site.
   # DELETE THIS LINE AT LAUNCH (see LAUNCH-CHECKLIST.md).
   PUBLIC_NOINDEX = "true"
-  # Add your GA4 Measurement ID (looks like G-XXXXXXXXXX) at launch.
-  # PUBLIC_GA_ID = "G-XXXXXXXXXX"
+  PUBLIC_GA_ID = "G-CS0Z297CZP"
 
 [[headers]]
   for = "/*"
