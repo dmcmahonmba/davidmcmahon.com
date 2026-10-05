@@ -3,7 +3,7 @@ export type Photo = { src: string; w: number; h: number; alt: string; caption: s
 export const GALLERY: Record<string, Photo[]> = {
   "Football and rugby": [
     { src: "/images/butler-sideline.jpg", w: 960, h: 720, alt: "Butler defenders on the sideline bench listening to a coach in a headset, number 55 in the center.", caption: "I'm #55, sitting on the bench directly in front of our defensive coordinator." },
-    { src: "/images/gallery/butler-football-2003-sideline.jpg", w: 900, h: 680, alt: "Butler football players in navy jerseys posing on the sideline, number 55 in the back row.", caption: "Butler teammates on the sideline, #55 in the back row." },
+    { src: "/images/gallery/butler-football-2003-sideline.jpg", w: 900, h: 680, alt: "Members of the 2003 TKE pledge class in navy Butler football uniforms, posing on game day at the old Butler Bowl.", caption: "2003 TKE pledge class brothers who also played football, pictured on game day in the old Butler Bowl." },
     { src: "/images/gallery/butler-fifth-year-55.jpg", w: 878, h: 1392, alt: "David McMahon in a Butler football uniform, number 55, holding a football and his helmet.", caption: "Fifth-year photo, Butler football. #55." },
     { src: "/images/gallery/westerville-worms-rugby-2002.jpg", w: 900, h: 675, alt: "Westerville Worms rugby team posing for a team photo after the Midwest championship.", caption: "Westerville Worms, Midwest rugby champions, Minneapolis, April 2002. I'm in the back row, fourth from left." },
     { src: "/images/gallery/usa-argentina-xv-2026.jpg", w: 900, h: 1200, alt: "Stadium video board showing USA ahead of Argentina XV during a rugby match.", caption: "USA vs. Argentina XV, Hollywood, Florida, August 2026. The USA won 25 to 24 in a nail-biter." },
