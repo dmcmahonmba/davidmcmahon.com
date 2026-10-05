@@ -8,22 +8,26 @@ const sections = Object.entries(GALLERY);
     <h1>Gallery</h1>
     <p class="sub">Football, Butler, family, and the people and places along the way.</p>
 
-    <section class="reel">
-      <h2>Nolan Surfing</h2>
-      <figure>
-        <video controls playsinline preload="metadata" poster="/video/nolan-surfing-highlights-poster.jpg" aria-label="Highlights of Nolan surfing">
-          <source src="/video/nolan-surfing-highlights.mp4" type="video/mp4" />
-        </video>
-      </figure>
-    </section>
-    <section class="reel">
-      <h2>Nolan Skimboarding</h2>
-      <figure>
-        <video controls playsinline preload="metadata" poster="/video/nolan-skimboarding-highlights-poster.jpg" aria-label="Highlights of Nolan skimboarding">
-          <source src="/video/nolan-skimboarding-highlights.mp4" type="video/mp4" />
-        </video>
-      </figure>
-    </section>
+    <div class="reels">
+      <section class="reel">
+        <h2>Nolan Surfing</h2>
+        <figure>
+          <video controls playsinline preload="metadata" poster="/video/nolan-surfing-highlights-poster.jpg" aria-label="Highlights of Nolan surfing">
+            <source src="/video/nolan-surfing-highlights.mp4" type="video/mp4" />
+          </video>
+          <figcaption>Highlights from The Compound Board Surf, Skim, and Paddle Summer Camp at Lido Beach, 2026.</figcaption>
+        </figure>
+      </section>
+      <section class="reel">
+        <h2>Nolan Skimboarding</h2>
+        <figure>
+          <video controls playsinline preload="metadata" poster="/video/nolan-skimboarding-highlights-poster.jpg" aria-label="Highlights of Nolan skimboarding">
+            <source src="/video/nolan-skimboarding-highlights.mp4" type="video/mp4" />
+          </video>
+          <figcaption>Highlights from across Lido and Longboat Key, starting in summer 2026.</figcaption>
+        </figure>
+      </section>
+    </div>
 
     {sections.map(([name, photos]) => (
       <section>
@@ -42,10 +46,14 @@ const sections = Object.entries(GALLERY);
 </Base>
 <style>
   h2{margin-top:44px}
+  .reel h2{margin-top:44px}
   .gallery{columns:2 320px;column-gap:28px;margin-top:20px}
   .gallery figure{break-inside:avoid;margin:0 0 28px}
   .gallery img{width:100%;height:auto;display:block;border:1px solid var(--gray-light)}
   .gallery figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
-  .reel figure{margin:20px 0 0;max-width:360px}
+  .reels{display:grid;grid-template-columns:repeat(2,minmax(0,360px));gap:40px;align-items:start}
+  .reel figure{margin:20px 0 0}
   .reel video{width:100%;height:auto;aspect-ratio:9/16;display:block;background:var(--blue-deep);border:1px solid var(--gray-light);object-fit:cover}
+  .reel figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
+  @media (max-width:760px){.reels{grid-template-columns:1fr;gap:0}}
 </style>
