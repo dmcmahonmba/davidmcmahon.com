@@ -30,7 +30,7 @@ export const SITE = {
 export const SOCIALS = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/davidmcmahonmba', inSchema: true },
   { name: 'Instagram', url: 'https://www.instagram.com/emma_and_elsie/', inSchema: true },
-  { name: 'X', url: 'https://x.com/researchcte4me', inSchema: true }, // TODO: confirm this is the right handle
+  { name: 'X', url: 'https://x.com/researchcte4me', inSchema: true },
   { name: 'Medium', url: 'https://medium.com/@davidmcmahon11', inSchema: true },
   { name: 'Crunchbase', url: 'https://www.crunchbase.com/person/david-mcmahon-ecc1', inSchema: true },
   { name: 'Substack', url: 'https://substack.com/@davidmcmahon55', inSchema: true },
