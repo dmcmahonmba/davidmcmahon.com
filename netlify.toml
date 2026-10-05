@@ -4,7 +4,6 @@
 
 [build.environment]
   NODE_VERSION = "22"
-  # PREVIEW ONLY: tells search engines not to index this site.
   PUBLIC_GA_ID = "G-CS0Z297CZP"
 
 [[headers]]
