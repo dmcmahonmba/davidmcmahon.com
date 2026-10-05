@@ -6,7 +6,7 @@ status: draft
 author: David McMahon
 description: "Butler 23, Dayton 20 on September 30, 2006: a blocked extra point, a late safety, and the first win over the Flyers in 11 tries."
 keywords: ["David McMahon", "Butler football", "Butler vs Dayton 2006", "Pioneer Football League", "Uncle Rico's Corner"]
-featuredImage: TODO photo of the kick block (old Butler weight room)
+featuredImage: /images/butler-dayton-2006-final.png
 sources:
   - https://daytonflyers.com/news/2006/9/30/FB_1901.aspx
   - https://daytonflyers.com/news/2006/9/27/FB_3435.aspx
@@ -42,11 +42,11 @@ On the other side, T.J. Brown threw for 267 yards and three touchdowns for us, i
 
 Late in the game, Dayton scored to pull within one at 21-20. Then came the extra point that would have put them ahead. Rich and I had a special scheme for blocking kicks, and that afternoon it worked. Rich came up the middle and got his hands on it, and the kick never got over the line. That block was the difference in the game until the safety.
 
-[PHOTO: Rich and me with our hands up on the block]
-
 ## The safety
 
 Later in the game, Chris Marzotto got to Hoyng in the end zone for our only sack of the day. It was a safety, and it put us up 23-20.
+
+![Final score: Butler 23, Dayton 20. Dayton led 14-7 after the first quarter; Butler outscored the Flyers 16-6 over the second half.](/images/butler-dayton-2006-final.png)
 
 We ended an 11-game losing streak to a program that had owned us for years. I did not know it then, but I would get hurt in San Diego the following Saturday. I am glad that the last full game I played was one like that.
 
