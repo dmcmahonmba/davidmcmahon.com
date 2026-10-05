@@ -21,13 +21,12 @@ const cards = [
       <a class="btn" href="/resume/">View my resume</a>
     </div>
     <div class="hero-media">
-      <img class="photo" src={SITE.image} alt="David McMahon" width="340" height="340" />
-      <figure class="rotator" id="rotator" aria-label="Family photos">
-        {HERO.map((p, i) => (
-          <img class={i === 0 ? 'on' : ''} src={p.src} width={p.w} height={p.h} alt={p.alt} loading={i === 0 ? 'eager' : 'lazy'} data-cap={p.caption} />
+      <div class="rotator" id="rotator" role="img" aria-label="Photos of David McMahon and family">
+        <img class="on" src={SITE.image} alt="David McMahon" width="340" height="340" />
+        {HERO.map((p) => (
+          <img src={p.src} width={p.w} height={p.h} alt={p.alt} loading="lazy" />
         ))}
-        <figcaption id="rotcap">{HERO[0].caption}</figcaption>
-      </figure>
+      </div>
     </div>
   </div></section>
   <section class="stats"><div class="wrap">
@@ -50,14 +49,12 @@ const cards = [
   const rot = document.getElementById('rotator');
   if (rot && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const imgs = Array.from(rot.querySelectorAll('img'));
-    const cap = document.getElementById('rotcap')!;
     let i = 0;
     setInterval(() => {
       if (document.hidden) return;
       imgs[i].classList.remove('on');
       i = (i + 1) % imgs.length;
       imgs[i].classList.add('on');
-      cap.textContent = imgs[i].dataset.cap || '';
     }, 6000);
   }
 </script>
