@@ -34,7 +34,7 @@ David finished his MBA in Leadership at Butler in 2008 and stayed in Indianapoli
 
 ## Coaching and family
 
-A career move brought David and his wife to Sarasota, where they are raising two kids. David coaches youth soccer and basketball. The same lessons apply to a team of seven-year-olds as to a team of directors: show up, be honest, and make the people around you better.
+A career move brought David and his wife to Sarasota, where they are raising two kids. Since 2025, David has volunteered as a youth soccer and basketball coach. The same lessons apply to a team of seven-year-olds as to a team of directors: show up, be honest, and make the people around you better.
 
 ## Leadership and the Campbell Trophy Summit
 
