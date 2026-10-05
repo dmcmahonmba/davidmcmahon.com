@@ -1,6 +1,6 @@
 # Content roadmap
 
-## Blog: the beach (Uncle Rico's Corner or main blog, Dave to choose)
+## Blog: the beach (main blog, not Uncle Rico's Corner. Do not draft until Dave says)
 Full post on the significance of going to the beach.
 - Grew up in the Midwest, beach about once a year.
 - Family trips: Duck, then Myrtle Beach, then Hilton Head. Love for all of the Carolinas.
