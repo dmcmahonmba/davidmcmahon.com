@@ -2,6 +2,7 @@
 import { getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { SITE } from '../data/site';
+import { HERO } from '../data/gallery';
 const dayton = await getEntry('rico', 'the-day-butler-finally-beat-dayton');
 const summit = await getEntry('blog', 'chicken-soup-for-the-leadership-soul-what-my-first-campbell-trophy-summit-taught-me-about-who-i-want-to-be');
 const orm = await getEntry('blog', 'what-is-online-reputation-management');
@@ -19,7 +20,15 @@ const cards = [
       <p class="lede">Dave, David, Dave-O, Captain, Coach, boss. I answer to all of them, just don&rsquo;t call me late for dinner. These days I advise on reputation management, SEO, branding, and AI implementation.</p>
       <a class="btn" href="/resume/">View my resume</a>
     </div>
-    <img class="photo" src={SITE.image} alt="David McMahon" width="340" height="340" />
+    <div class="hero-media">
+      <img class="photo" src={SITE.image} alt="David McMahon" width="340" height="340" />
+      <figure class="rotator" id="rotator" aria-label="Family photos">
+        {HERO.map((p, i) => (
+          <img class={i === 0 ? 'on' : ''} src={p.src} width={p.w} height={p.h} alt={p.alt} loading={i === 0 ? 'eager' : 'lazy'} data-cap={p.caption} />
+        ))}
+        <figcaption id="rotcap">{HERO[0].caption}</figcaption>
+      </figure>
+    </div>
   </div></section>
   <section class="stats"><div class="wrap">
     <div class="stat"><b>$5M to $19M</b><span>revenue growth at NetReputation</span></div>
@@ -37,3 +46,18 @@ const cards = [
     <a class="link all" href="/blog-posts/">All writing</a>
   </div></section>
 </Base>
+<script>
+  const rot = document.getElementById('rotator');
+  if (rot && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const imgs = Array.from(rot.querySelectorAll('img'));
+    const cap = document.getElementById('rotcap')!;
+    let i = 0;
+    setInterval(() => {
+      if (document.hidden) return;
+      imgs[i].classList.remove('on');
+      i = (i + 1) % imgs.length;
+      imgs[i].classList.add('on');
+      cap.textContent = imgs[i].dataset.cap || '';
+    }, 6000);
+  }
+</script>

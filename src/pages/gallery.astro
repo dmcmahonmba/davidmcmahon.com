@@ -1,27 +1,67 @@
 ---
 import Base from '../layouts/Base.astro';
-const photos = [
-  { src: '/images/butler-sideline.jpg', w: 960, h: 720, alt: 'Butler Bulldogs defenders on the sideline bench listening to a coach wearing a headset, number 55 in the center.', caption: 'On the Butler sideline, listening to the defensive game plan.' },
-  { src: '/images/campbell-summit-stanford.jpg', w: 920, h: 1600, alt: 'David McMahon standing beside the William V. Campbell Trophy on a rooftop overlooking Stanford Stadium at sunset.', caption: 'With the William V. Campbell Trophy at the Leadership Summit at Stanford.' },
-];
+import { GALLERY } from '../data/gallery';
+const sections = Object.entries(GALLERY);
 ---
-<Base title="Gallery" description="Photos from David McMahon's football career at Butler and the Campbell Trophy Leadership Summit at Stanford." breadcrumbs={[{ name: 'Gallery', path: '/gallery/' }]}>
+<Base title="Gallery" description="Photos and video from David McMahon's life: Butler football, rugby, the Campbell Trophy Leadership Summit, and family in Sarasota and Indianapolis." breadcrumbs={[{ name: 'Gallery', path: '/gallery/' }]}>
   <div class="wrap page">
     <h1>Gallery</h1>
-    <p class="sub">Football, Butler, and the people and places along the way.</p>
-    <div class="gallery">
-      {photos.map((p) => (
-        <figure>
-          <img src={p.src} width={p.w} height={p.h} alt={p.alt} loading="lazy" />
-          <figcaption>{p.caption}</figcaption>
-        </figure>
-      ))}
+    <p class="sub">Football, Butler, family, and the people and places along the way.</p>
+
+    <h2>Video</h2>
+    <div class="videos">
+      <figure class="lead">
+        <video controls playsinline preload="metadata" poster="/video/nolan-skimboard-wave-poster.jpg" aria-label="Nolan skimboarding into a wave">
+          <source src="/video/nolan-skimboard-wave.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Nolan catching a wave on the skimboard.</figcaption>
+      </figure>
+      <figure class="tile">
+        <video id="loopclip" muted loop playsinline autoplay preload="metadata" poster="/video/nolan-skimboard-shallows-poster.jpg" aria-label="Nolan skimboarding in the shallows">
+          <source src="/video/nolan-skimboard-shallows.mp4" type="video/mp4" />
+        </video>
+        <button type="button" id="sound" aria-pressed="false">Tap for sound</button>
+        <figcaption>Out in the shallows.</figcaption>
+      </figure>
     </div>
+
+    {sections.map(([name, photos]) => (
+      <section>
+        <h2>{name}</h2>
+        <div class="gallery">
+          {photos.map((p) => (
+            <figure>
+              <img src={p.src} width={p.w} height={p.h} alt={p.alt} loading="lazy" decoding="async" />
+              <figcaption>{p.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    ))}
   </div>
 </Base>
+<script>
+  const v = document.getElementById('loopclip') as HTMLVideoElement | null;
+  const b = document.getElementById('sound') as HTMLButtonElement | null;
+  if (v && b) {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { v.removeAttribute('autoplay'); v.pause(); }
+    b.addEventListener('click', () => {
+      v.muted = !v.muted;
+      if (!v.muted) v.play().catch(() => {});
+      b.setAttribute('aria-pressed', String(!v.muted));
+      b.textContent = v.muted ? 'Tap for sound' : 'Mute';
+    });
+  }
+</script>
 <style>
-  .gallery{columns:2 320px;column-gap:28px;margin-top:32px}
+  h2{margin-top:44px}
+  .gallery{columns:2 320px;column-gap:28px;margin-top:20px}
   .gallery figure{break-inside:avoid;margin:0 0 28px}
   .gallery img{width:100%;height:auto;display:block;border:1px solid var(--gray-light)}
-  .gallery figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
+  .gallery figcaption,.videos figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
+  .videos{display:grid;grid-template-columns:minmax(0,320px) minmax(0,220px);gap:28px;align-items:start;margin-top:20px}
+  .videos figure{margin:0;position:relative}
+  .videos video{width:100%;height:auto;aspect-ratio:9/16;display:block;background:var(--blue-deep);border:1px solid var(--gray-light);object-fit:cover}
+  #sound{position:absolute;right:8px;top:8px;background:rgba(11,27,51,.82);color:#fff;border:1px solid var(--accent);border-radius:999px;padding:6px 12px;font:600 12px Inter,sans-serif;cursor:pointer}
+  @media (max-width:640px){.videos{grid-template-columns:1fr 1fr;gap:14px}}
 </style>

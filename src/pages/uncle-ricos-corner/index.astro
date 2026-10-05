@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { RICO_PHOTOS } from '../../data/gallery';
 const posts = await getCollection('rico');
 ---
 <Base title="Uncle Rico's Corner" description="Longer stories from David McMahon's athletic career: Westerville football and rugby, Butler football, and the lessons and players along the way." breadcrumbs={[{ name: "Uncle Rico's Corner", path: '/uncle-ricos-corner/' }]}>
@@ -17,10 +18,21 @@ const posts = await getCollection('rico');
         <li><a href={`/uncle-ricos-corner/${p.data.slug}/`}><h2>{p.data.title}</h2><p>{p.data.description}</p></a></li>
       ))}
     </ul>
+    <h2 class="snap-h">Snapshots from the corner</h2>
+    <div class="snaps">
+      {RICO_PHOTOS.map((p) => (
+        <figure><img src={p.src} width={p.w} height={p.h} alt={p.alt} loading="lazy" decoding="async" /><figcaption>{p.caption}</figcaption></figure>
+      ))}
+    </div>
   </div>
 </Base>
 <style>
   .rico-head{display:flex;gap:40px;align-items:center;justify-content:space-between;flex-wrap:wrap}
   .rico-head>div{flex:1 1 380px;min-width:0}
   .rico-photo{border:3px solid var(--accent);padding:4px;background:#fff;max-width:100%;height:auto;flex:0 0 auto}
+  .snap-h{margin-top:52px}
+  .snaps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;margin-top:20px;align-items:start}
+  .snaps figure{margin:0}
+  .snaps img{width:100%;height:auto;display:block;border:1px solid var(--gray-light)}
+  .snaps figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}
 </style>
