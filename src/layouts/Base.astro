@@ -21,6 +21,7 @@ const canonical = new URL(path, SITE.url).href;
 const image = new URL(SITE.image, SITE.url).href;
 const blockIndexing = noindex || import.meta.env.PUBLIC_NOINDEX === 'true';
 const ga = import.meta.env.PUBLIC_GA_ID;
+const gtm = import.meta.env.PUBLIC_GTM_ID;
 const fullTitle = path === '/' ? title : `${title} | ${SITE.name}`;
 ---
 <!doctype html>
@@ -28,6 +29,11 @@ const fullTitle = path === '/' ? title : `${title} | ${SITE.name}`;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {gtm && (
+      <script is:inline define:vars={{ gtm }}>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtm);
+      </script>
+    )}
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -57,6 +63,7 @@ const fullTitle = path === '/' ? title : `${title} | ${SITE.name}`;
     )}
   </head>
   <body class={`theme-${headerTheme}`}>
+    {gtm && <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${gtm}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>}
     <a class="skip" href="#main">Skip to content</a>
     <Header current={path} />
     <main id="main"><slot /></main>
