@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "22"
-  PUBLIC_GA_ID = "G-CS0Z297CZP"
+  # GA4 (G-CS0Z297CZP) is now loaded through Google Tag Manager, not directly in the code.
   PUBLIC_GTM_ID = "GTM-KQRT5HZM"
 
 [[headers]]

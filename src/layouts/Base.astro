@@ -20,7 +20,6 @@ const path = Astro.url.pathname;
 const canonical = new URL(path, SITE.url).href;
 const image = new URL(SITE.image, SITE.url).href;
 const blockIndexing = noindex || import.meta.env.PUBLIC_NOINDEX === 'true';
-const ga = import.meta.env.PUBLIC_GA_ID;
 const gtm = import.meta.env.PUBLIC_GTM_ID;
 const fullTitle = path === '/' ? title : `${title} | ${SITE.name}`;
 ---
@@ -50,17 +49,6 @@ const fullTitle = path === '/' ? title : `${title} | ${SITE.name}`;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600&display=swap" />
     <Schema type={type} title={title} description={description} path={path} datePublished={datePublished} dateModified={dateModified} breadcrumbs={breadcrumbs} />
-    {ga && (
-      <>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></script>
-        <script is:inline define:vars={{ ga }}>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', ga);
-        </script>
-      </>
-    )}
   </head>
   <body class={`theme-${headerTheme}`}>
     {gtm && <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${gtm}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>}
