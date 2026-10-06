@@ -8,3 +8,13 @@ import Base from '../../layouts/Base.astro';
     <p style="margin-top:24px"><a class="link" href="/">Back to the homepage</a></p>
   </div>
 </Base>
+<script is:inline>
+  (function () {
+    var sent = false;
+    try { sent = sessionStorage.getItem('contact_form_submit') === '1'; } catch (e) {}
+    if (sent) return;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'contact_form_submit', form_name: 'contact' });
+    try { sessionStorage.setItem('contact_form_submit', '1'); } catch (e) {}
+  })();
+</script>
