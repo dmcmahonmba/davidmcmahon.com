@@ -37,7 +37,11 @@ In 2011 Byrider launched GoJDB.com. As I remember it, it was a major investment,
 
 In 2014 and 2015 Byrider partnered with Podium and moved the franchise base off call-center CSI calls and onto automated review requests. Owners pushed back again. It is where I first learned review management, and I later helped more than 100 locations climb above a 4.5-star average. [Dave: confirm "2015" versus "2014 to 2015" to match the resume.]
 
-In 2017 Byrider rolled out ARE 2.0, an upgrade to the Automated Risk Evaluator. I lived that rollout. It was tested in the company stores first and then pushed out to franchisees, and many operators pushed back. As I saw it, it had been built to increase sales at the company stores and put less weight on items franchisees had historically valued. [Dave: one or two sentences on what specifically changed and what owners said.] [Dave: decide whether to say anything about what happened to the company stores afterward. That is an opinion about a real company, so I would keep it out or label it clearly as your view.]
+In 2017 Byrider rolled out ARE 2.0, an upgrade to the Automated Risk Evaluator. I lived that rollout. It was tested in the company stores first and then pushed out to franchisees, and many operators pushed back.
+
+The tool was never the final decision maker. People had to learn how to use it and adjust the settings to score deals the way they wanted to run their locations. It did not replace human oversight. It was an updated reference point. I think of it the way people talk about AI in 2023: the tool matters less than whether people learn to use it with judgment.
+
+Still, it was easy for franchisees who ran the legacy Byrider model, with lower vehicle prices and shorter finance terms, to see the change as built for the company stores, which ran higher prices and larger loans. That was the real debate: two philosophies of how to score and structure a deal. [Dave: confirm this framing as your own view of what owners felt.]
 
 [Dave: optional third change or one story where an owner changed their mind.]
 
