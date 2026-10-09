@@ -12,7 +12,7 @@ sources:
 ---
 ## The lot in Marion
 
-Jim DeVoe Sr., known as Big Jim, ran his family's Chevrolet-Cadillac dealership in Marion, Indiana. Interest rates were high, many people in town were being turned down for bank financing, and he started financing customers himself in 1979. In 1989 he founded J.D. Byrider with the goal of franchising that model so other owners could help customers the same way.
+James DeVoe Sr., commonly referred to as Big Jim, ran his family's Chevrolet-Cadillac dealership in Marion, Indiana. Interest rates were high, many people in town were being turned down for bank financing, and he started financing customers himself in 1979. In 1989 he founded J.D. Byrider with the goal of franchising that model so other owners could help customers the same way.
 
 I never met him. But when I taught franchisees, the story of that original lot was part of the class, and the photo of that original lot was its own slide in every training class.
 
