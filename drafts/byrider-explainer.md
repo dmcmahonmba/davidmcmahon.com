@@ -25,6 +25,12 @@ Leaders Read came up often. It was a recurring reminder of Jim's commitment to c
 
 Around 2013 the whole corporate team went through Stephen M.R. Covey's Speed of Trust at a franchisee support event. [Dave: confirm the year and one line on what stuck.]
 
+## The human side of the numbers
+
+The part of Speed of Trust that landed hardest for me was how closely it matched what Byrider had been doing for years: the sales flipchart and the finance interview and budget underwriting process. The scoring model was technology. [Dave: confirm the name, "ARE"?] But the human element is where relationships with customers were built and where value was added to the process.
+
+Owners faced tough decisions all the time. When I was there, starting a store meant roughly $1M in liquid capital and a minimum $5M line of credit [Dave: confirm these figures and that they were current in your years], in a heavily leveraged business. That is why the projection model mattered so much. On a 42-month car loan, cash-flow payback averaged 18 to 21 months depending on deal structure [Dave: confirm], and Byrider's static pool data was second to none for predicting portfolio performance.
+
 ## Three changes owners doubted
 
 In 2011 Byrider launched GoJDB.com. As I remember it, it was a major investment, and some late adopters doubted a car dealership needed to spend that kind of money on the internet. For me it was the start of learning how lead sources work, how to score leads, and how conversion differs between paid leads, organic leads, and referrals.
