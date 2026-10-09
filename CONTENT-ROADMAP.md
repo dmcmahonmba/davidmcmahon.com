@@ -36,3 +36,11 @@ Byrider/DeVoe research notes (Oct 9, 2026). Facts for Dave to verify; not copy:
 - Tribute says he studied successful leaders through biographies and audio recordings of executives' life stories, and led from faith and family, treating customers with respect and employees well. This is the documented root of "leaders read" and echoes Dave's audiobook habit. Dave's call whether and how to use it.
 - Training (Auto Dealer Today, 2008): seven courses from leadership to finance, sales, buying and reconditioning, accounting, and collections, plus web-based certified modules for every position.
 - Sources: wesleyan.org (Apr 2013), ibj.com article 40646, indwes.edu DeVoe Report Spring 2017 PDF, autodealertodaymagazine.com Gary Duncan article, byriderfranchise.com/about-us, byrider.com/why-byrider/about-us.
+
+Dave's Byrider training memories (Oct 9, 2026), raw material for the explainer, his words to follow:
+- Leaders Read was Byrider's training department newsletter (not Dave's own). Do not imply he wrote or ran it.
+- Hosted franchisees from across the US for 2 to 3 day classes: sales, service, underwriting, collections.
+- Manual P&L budget projection modeling: owners ran scenario analysis on different sales and collection targets.
+- Franchisee support event where Stephen Covey's "Speed of Trust" was taught to all corporate team members (FranklinCovey: Leading at the Speed of Trust).
+- No single standout story; the value was hosting franchisees from everywhere.
+Explainer outline idea: (1) Jim DeVoe Sr. and the Marion lot, (2) how Byrider trained franchisees, (3) Dave's 2009 to 2017 role, (4) what he carried forward. Needs 1 or 2 concrete scenes from Dave.
