@@ -7,13 +7,19 @@ description: "Around 2016 Byrider replaced its famous jingle-led ads with a traf
 keywords: ["David McMahon", "J.D. Byrider", "change management", "franchise marketing", "Go Go campaign"]
 ---
 
-[DRAFT for Dave. Built from your notes. The agency, Little Caesars, and Mazda details are left out because they are unverified; add them back only if you can confirm them.]
+[DRAFT for Dave. Built from your notes. The agency is unnamed. Little Caesars and Mazda appear only as what the agency said in the room.]
 
 Around 2016, Byrider changed its advertising. The well-known J.D. Byrider jingle gave way to a new character: a traffic light that said "go, go." As I remember it, an agency leader from Detroit came up with it. In some cases the ads kept the old song and added "go go" at the end.
 
 ## The pushback
 
 Franchisees pushed back, and I understood why. They paid ad royalties, and many questioned whether the money was being spent wisely. A new campaign meant new creative, and for some owners it meant replacing signage and billboards in their local markets. Those are real costs.
+
+## In the room
+
+The campaign was introduced at a meeting with the dealership groups, the March 20 Group at the Conrad in downtown Indianapolis [Dave: year?]. As I remember it, the agency presented its past work, including Little Caesars' "Pizza! Pizza!" and Mazda's "Zoom-Zoom," as examples of its approach.
+
+There were grumblings in the room. The pattern was hard to miss: say the key word twice and build the campaign around it. Not every owner cared for that explanation.
 
 ## The rollout
 
