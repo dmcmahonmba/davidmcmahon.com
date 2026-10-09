@@ -100,3 +100,6 @@ form.contact button{justify-self:start;border:0;cursor:pointer}
  .stats .wrap{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}
  .site-header ul{gap:16px}
 }
+.prose figure.logos{margin:0 0 1.6em}
+.prose figure.logos img{width:100%;height:auto;display:block;border:1px solid var(--gray-light)}
+.prose figure.logos figcaption{font-size:14px;color:var(--blue-soft);margin-top:8px}

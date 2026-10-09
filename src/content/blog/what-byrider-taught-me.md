@@ -4,12 +4,18 @@ slug: what-byrider-taught-me
 date: 2026-10-09
 author: David McMahon
 description: "A short history of J.D. Byrider and founder Jim DeVoe Sr., and what I learned from 2009 to 2018 teaching franchisees, running P&L reviews, and rolling out GoJDB.com, Podium, and ARE 2.0."
+featuredImage: /images/blog/byrider-logo-progression.png
 keywords: ["David McMahon", "J.D. Byrider", "Jim DeVoe Sr.", "Big Jim", "buy here pay here", "franchise training", "Leaders Read"]
 sources:
   - https://www.byrider.com/why-byrider/about-us
   - https://byriderfranchise.com/about-us/
   - https://www.indwes.edu/academics/CAPS/devoe-school-of-business-technology-and-leadership/the-devoe-report/archive/devoe-report-spring-2017.pdf
 ---
+<figure class="logos">
+  <img src="/images/blog/byrider-logo-progression.png" width="1200" height="350" alt="Four Byrider logos in order: the original J.D. Byrider oval with a car, a later blue and gold J.D. Byrider logo, and the current byrider wordmark with an orange arrow, on blue and on black." />
+  <figcaption>The Byrider logo over time. Byrider logos are trademarks of Byrider Franchising Partners, LLC, shown here for historical context.</figcaption>
+</figure>
+
 ## The lot in Marion
 
 James DeVoe Sr., commonly referred to as Big Jim, ran his family's Chevrolet-Cadillac dealership in Marion, Indiana. Interest rates were high, many people in town were being turned down for bank financing, and he started financing customers himself in 1979. In 1989 he founded J.D. Byrider with the goal of franchising that model so other owners could help customers the same way.
