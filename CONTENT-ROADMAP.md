@@ -55,3 +55,5 @@ More from Dave (Oct 9, 2026):
 
 Podium story (Dave, Oct 9, 2026): in 2014/2015 Byrider partnered with Podium and pushed the whole franchise base off call-center CSI (customer satisfaction index) calls for sales and service onto an automated review request system. Franchisees pushed back, similar to the GoJDB pushback in 2011. This is where Dave first learned review management. Ties to the resume's existing Podium bullet (2015, 100+ locations above a 4.5-star average). Keep the dates and wording consistent with the resume. Dave's recollection, not sourced.
 Explainer arc: 2011 GoJDB (internet) -> 2014/2015 Podium (reviews) -> later SEO and reputation work. Both were change-management stories where operators doubted the investment.
+
+CORRECTION (Oct 9, 2026, supersedes earlier notes): "Leaders Read" was NOT the name of a newsletter. It was a recurring reminder across the company of Jim DeVoe's commitment to continuous improvement, self discipline and intellectual curiosity. It often appeared in the training department's monthly email newsletter, with specific examples. Do not call it a newsletter or a program name.
