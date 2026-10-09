@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { BOOKS } from '../../data/leaders-read';
+const desc = 'Leadership book reviews by David McMahon, inspired by Jim DeVoe Sr., a leader I never met whose systems, team, and culture carried on at Byrider.';
+---
+<Base title="Leaders Read" description={desc} breadcrumbs={[{ name: 'Leaders Read', path: '/leaders-read/' }]}>
+  <div class="wrap page">
+    <h1>Leaders Read</h1>
+    <div class="intro">
+      <p>At Byrider, "Leaders Read" was a recurring reminder of founder Jim DeVoe Sr.'s commitment to continuous improvement, self-discipline, and intellectual curiosity. The training department's monthly newsletter often carried it, with specific examples. DeVoe started J.D. Byrider in 1989 and studied successful leaders through biographies and audio recordings of their life stories.</p>
+      <p>I never met him, but I spent 2009 to 2017 inside the company he built. I taught franchisees from across the country, sat through Speed of Trust with the whole corporate team, and watched owners debate big changes like GoJDB.com and automated review requests.</p>
+      <p>Nearly a decade after my time at Byrider HQ ended, I still download a new book on Audible every two to three weeks. Every review here is my own take on what a book argues, what stuck with me, and where it fell short.</p>
+    </div>
+    <h2 class="shelf-h">On the shelf</h2>
+    <ul class="shelf">
+      {BOOKS.map((b) => (
+        <li class="book">
+          {b.status === 'reviewed' && b.slug
+            ? <a href={`/leaders-read/${b.slug}/`}><h3>{b.title}</h3><p class="by">{b.author}</p><p class="tag done">Read the review</p></a>
+            : <div><h3>{b.title}</h3><p class="by">{b.author}</p><p class="tag">Review coming soon</p></div>}
+        </li>
+      ))}
+    </ul>
+  </div>
+</Base>
+<style>
+  .intro{max-width:720px}
+  .intro p{margin:0 0 1.1em}
+  .shelf-h{margin-top:48px}
+  .shelf{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+  .book>div,.book>a{display:block;height:100%;box-sizing:border-box;padding:20px;border:1px solid var(--gray-light);border-top:3px solid var(--accent);background:#fff;color:inherit;text-decoration:none}
+  .book h3{font-family:'Source Serif 4',Georgia,serif;font-size:20px;line-height:1.25;margin:0 0 8px;color:var(--blue)}
+  .book .by{font-size:14px;color:var(--blue-soft);margin:0 0 14px}
+  .book .tag{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gray);margin:0}
+  .book .tag.done{color:var(--accent-deep)}
+</style>
