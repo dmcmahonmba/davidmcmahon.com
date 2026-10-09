@@ -52,3 +52,6 @@ More from Dave (Oct 9, 2026):
 - Moderated Byrider "dealership 20 groups" where operators shared best practices and helped each other evolve.
 - Byrider launched the new website gojdb.com (2011 per the About Us timeline); Dave says about a $1M investment, doubted by late adopters who felt car dealerships did not need the internet. For Dave: first lessons in lead scoring, lead source, and conversion rates for paid vs organic vs referral leads. The $1M figure is Dave's recollection, not sourced.
 - Link this to the NetReputation and SEO story in the explainer: the thread from GoJDB lead sources to later reputation and SEO work.
+
+Podium story (Dave, Oct 9, 2026): in 2014/2015 Byrider partnered with Podium and pushed the whole franchise base off call-center CSI (customer satisfaction index) calls for sales and service onto an automated review request system. Franchisees pushed back, similar to the GoJDB pushback in 2011. This is where Dave first learned review management. Ties to the resume's existing Podium bullet (2015, 100+ locations above a 4.5-star average). Keep the dates and wording consistent with the resume. Dave's recollection, not sourced.
+Explainer arc: 2011 GoJDB (internet) -> 2014/2015 Podium (reviews) -> later SEO and reputation work. Both were change-management stories where operators doubted the investment.
