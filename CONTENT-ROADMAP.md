@@ -44,3 +44,11 @@ Dave's Byrider training memories (Oct 9, 2026), raw material for the explainer, 
 - Franchisee support event where Stephen Covey's "Speed of Trust" was taught to all corporate team members (FranklinCovey: Leading at the Speed of Trust).
 - No single standout story; the value was hosting franchisees from everywhere.
 Explainer outline idea: (1) Jim DeVoe Sr. and the Marion lot, (2) how Byrider trained franchisees, (3) Dave's 2009 to 2017 role, (4) what he carried forward. Needs 1 or 2 concrete scenes from Dave.
+
+More from Dave (Oct 9, 2026):
+- Correction: "Leaders Read" was often the lead topic of the Byrider newsletter, with specific examples. Dave read it as an employee. He can still say the training department used the term.
+- Speed of Trust event: likely 2013 (Dave's recollection, confirm).
+- P&L review value: got owners out of the day to day, from working in the business to working on the business (Dave knows it is a cliche, still useful). Open, sharing environment.
+- Moderated Byrider "dealership 20 groups" where operators shared best practices and helped each other evolve.
+- Byrider launched the new website gojdb.com (2011 per the About Us timeline); Dave says about a $1M investment, doubted by late adopters who felt car dealerships did not need the internet. For Dave: first lessons in lead scoring, lead source, and conversion rates for paid vs organic vs referral leads. The $1M figure is Dave's recollection, not sourced.
+- Link this to the NetReputation and SEO story in the explainer: the thread from GoJDB lead sources to later reputation and SEO work.
