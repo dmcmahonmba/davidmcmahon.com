@@ -37,6 +37,8 @@ In 2011 Byrider launched GoJDB.com. As I remember it, it was a major investment,
 
 In 2014 and 2015 Byrider partnered with Podium and moved the franchise base off call-center CSI calls and onto automated review requests. Owners pushed back again. It is where I first learned review management, and I later helped more than 100 locations climb above a 4.5-star average. [Dave: confirm "2015" versus "2014 to 2015" to match the resume.]
 
+In 2016 and 2017 Byrider upgraded the ARE scoring model, and operators pushed back again. As I remember it, the upgrade was built for the company stores to increase sales and put less weight on the items franchisees had historically valued. [Dave: spell out what ARE stands for and what the upgrade changed, in your words.] Some people at the time predicted it would hurt the company stores over the long run. [Dave: decide whether to keep any "downfall" language. That is an opinion about a real company's stores, so it should be clearly your view, and I would keep it out unless you can say what you saw first-hand.]
+
 [Dave: optional third change or one story where an owner changed their mind.]
 
 ## What I took with me
