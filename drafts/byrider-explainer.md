@@ -25,6 +25,12 @@ Leaders Read came up often. It was a recurring reminder of Jim's commitment to c
 
 Around 2013 the whole corporate team went through Stephen M.R. Covey's Speed of Trust at a franchisee support event. [Dave: confirm the year and one line on what stuck.]
 
+## How the model works
+
+Buy here pay here is vertically integrated. A dealership sells the car, and a related finance company often holds the loan. High-risk loans come with a known default rate, so a firm can predict its loss rate and discount the loan paper to match. Then it tracks how the portfolio actually performs against the expected loss curves.
+
+That is why static pool data matters so much. It lets you compare each group of loans to what you expected, month by month. It is also why Byrider's proprietary CRM, Discover, and the Automated Risk Evaluator were such important innovations when they rolled out. [Dave: confirm "early 2000s," since that was before your time at Byrider.]
+
 ## The human side of the numbers
 
 The part of Speed of Trust that landed hardest for me was how closely it matched what Byrider had been doing for years: the sales flipchart and the finance interview and budget underwriting process. The scoring model, the Automated Risk Evaluator (ARE) inside Byrider's Discover software, was technology. But the human element is where relationships with customers were built and where value was added to the process.
