@@ -3,13 +3,13 @@ title: "Go, Go: What a Traffic Light Taught Me About Change at Byrider"
 slug: byrider-go-go-campaign
 date: 2026-10-09
 author: David McMahon
-description: "Around 2016 Byrider replaced its famous jingle-led ads with a traffic light character who said go, go. What the rollout taught me about change management."
+description: "Around 2013 Byrider replaced its famous jingle-led ads with a traffic light character who said go, go. What the rollout taught me about change management."
 keywords: ["David McMahon", "J.D. Byrider", "change management", "franchise marketing", "Go Go campaign"]
 ---
 
 [DRAFT for Dave. Built from your notes. The agency is unnamed. Little Caesars and Mazda appear only as what the agency said in the room.]
 
-Around 2016, Byrider changed its advertising. The well-known J.D. Byrider jingle gave way to a new character: a traffic light that said "go, go." As I remember it, an agency leader from Detroit came up with it. In some cases the ads kept the old song and added "go go" at the end.
+Around 2013, Byrider changed its advertising. The well-known J.D. Byrider jingle gave way to a new character: a traffic light that said "go, go." As I remember it, an agency leader from Detroit came up with it. In some cases the ads kept the old song and added "go go" at the end.
 
 ## The pushback
 
@@ -17,7 +17,7 @@ Franchisees pushed back, and I understood why. They paid ad royalties, and many 
 
 ## In the room
 
-The campaign was introduced at a meeting with the dealership groups, the March 20 Group at the Conrad in downtown Indianapolis [Dave: year?]. As I remember it, the agency presented its past work, including Little Caesars' "Pizza! Pizza!" and Mazda's "Zoom-Zoom," as examples of its approach.
+The campaign was introduced at a meeting with the dealership groups, the March 20 Group at the Conrad in downtown Indianapolis in 2013. As I remember it, the agency presented its past work, including Little Caesars' "Pizza! Pizza!" and Mazda's "Zoom-Zoom," as examples of its approach.
 
 There were grumblings in the room. The pattern was hard to miss: say the key word twice and build the campaign around it. Not every owner cared for that explanation.
 
