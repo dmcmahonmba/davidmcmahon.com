@@ -9,7 +9,7 @@ description: "A short history of J.D. Byrider and founder Jim DeVoe Sr., and wha
 
 ## The lot in Marion
 
-Jim DeVoe Sr. ran his family's Chevrolet-Cadillac dealership in Marion, Indiana. Interest rates were high, many people in town were being turned down for bank financing, and he started financing customers himself in 1979. In 1989 he founded J.D. Byrider with the goal of franchising that model so other owners could help customers the same way.
+Jim DeVoe Sr., known as Big Jim, ran his family's Chevrolet-Cadillac dealership in Marion, Indiana. Interest rates were high, many people in town were being turned down for bank financing, and he started financing customers himself in 1979. In 1989 he founded J.D. Byrider with the goal of franchising that model so other owners could help customers the same way.
 
 I never met him. But when I taught franchisees, the story of that original lot was part of the class, and the photo of that original lot was its own slide in every training class.
 
@@ -47,12 +47,14 @@ In 2017 Byrider rolled out ARE 2.0, an upgrade to the Automated Risk Evaluator. 
 
 The tool was never the final decision maker. People had to learn how to use it and adjust the settings to score deals the way they wanted to run their locations. It did not replace human oversight. It was an updated reference point. I think of it the way people talk about AI in 2023: the tool matters less than whether people learn to use it with judgment.
 
-Still, it was easy for franchisees who ran the legacy Byrider model, with lower vehicle prices and shorter finance terms, to see the change as built for the company stores, which ran higher prices and larger loans. That was the real debate: two philosophies of how to score and structure a deal. [Dave: confirm this framing as your own view of what owners felt.]
+Still, it was easy for franchisees who ran the legacy Byrider model, with lower vehicle prices and shorter finance terms, to see the change as built for the company stores, which ran higher prices and larger loans. That was the real debate: two philosophies of how to score and structure a deal.
 
 ## What I took with me
 
 In 2017 I moved to the franchisee side and ran four stores, including turning around a distressed location in Bradenton, Florida. Later, at NetReputation, I built a client services team around review management and reputation, the same craft I first learned from Podium at Byrider.
 
-[Dave: closing paragraph, your words. Two or three sentences on what you carried forward and a pointer to the Leaders Read page.]
+My takeaway is that change is constant. A large auto dealer in a fragmented market was always making improvements, using its company stores as the test kitchen and then sharing best practices with its franchisees. The family approach to business carried on for years after Big Jim passed away, and even after the family sold to Altamont Capital Partners in 2011, because of the strong corporate culture he built. That is the idea behind [Leaders Read](/leaders-read/), where I review the books I learn from.
+
+[Dave: this closing is built from your words. Rewrite any line that does not sound like you.]
 
 Sources for the history: J.D. Byrider About Us (byrider.com/why-byrider/about-us), Byrider Franchise About Us (byriderfranchise.com/about-us), Indiana Wesleyan University DeVoe Report, Spring 2017.

@@ -61,7 +61,7 @@ CORRECTION (Oct 9, 2026, supersedes earlier notes): "Leaders Read" was NOT the n
 FINAL COPY, Leaders Read hub (approved by Dave Oct 9, 2026; use verbatim):
 Meta description (145 chars): Leadership book reviews by David McMahon, inspired by Jim DeVoe Sr., a leader I never met whose systems, team, and culture carried on at Byrider.
 Intro:
-At Byrider, "Leaders Read" was a recurring reminder of founder Jim DeVoe Sr.'s commitment to continuous improvement, self-discipline, and intellectual curiosity. The training department's monthly newsletter often carried it, with specific examples. DeVoe started J.D. Byrider in 1989 and studied successful leaders through biographies and audio recordings of their life stories.
+At Byrider, "Leaders Read" was a recurring reminder of founder Jim DeVoe Sr., known as Big Jim, and his commitment to continuous improvement, self-discipline, and intellectual curiosity. The training department's monthly newsletter often carried it, with specific examples. DeVoe started J.D. Byrider in 1989 and studied successful leaders through biographies and audio recordings of their life stories.
 
 I never met him, but I spent 2009 to 2017 inside the company he built. I taught franchisees from across the country, sat through Speed of Trust with the whole corporate team, and watched owners debate big changes like GoJDB.com and automated review requests.
 
