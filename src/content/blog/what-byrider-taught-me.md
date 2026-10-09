@@ -1,12 +1,15 @@
 ---
 title: "What Byrider Taught Me: Jim DeVoe, the Franchise Classroom, and Three Changes Owners Doubted"
 slug: what-byrider-taught-me
-status: DRAFT (not in the build; lives in /drafts). Dave edits every line, then it moves to src/content/blog.
-description: "A short history of J.D. Byrider and founder Jim DeVoe Sr., and what I learned from 2009 to 2018 teaching franchisees, running P&L reviews, and rolling out GoJDB.com and Podium."
+date: 2026-10-09
+author: David McMahon
+description: "A short history of J.D. Byrider and founder Jim DeVoe Sr., and what I learned from 2009 to 2018 teaching franchisees, running P&L reviews, and rolling out GoJDB.com, Podium, and ARE 2.0."
+keywords: ["David McMahon", "J.D. Byrider", "Jim DeVoe Sr.", "Big Jim", "buy here pay here", "franchise training", "Leaders Read"]
+sources:
+  - https://www.byrider.com/why-byrider/about-us
+  - https://byriderfranchise.com/about-us/
+  - https://www.indwes.edu/academics/CAPS/devoe-school-of-business-technology-and-leadership/the-devoe-report/archive/devoe-report-spring-2017.pdf
 ---
-
-[BRACKETS = Dave to confirm or fill. Everything else comes from Dave's own notes or the cited sources.]
-
 ## The lot in Marion
 
 Jim DeVoe Sr., known as Big Jim, ran his family's Chevrolet-Cadillac dealership in Marion, Indiana. Interest rates were high, many people in town were being turned down for bank financing, and he started financing customers himself in 1979. In 1989 he founded J.D. Byrider with the goal of franchising that model so other owners could help customers the same way.
@@ -55,6 +58,5 @@ In 2017 I moved to the franchisee side and ran four stores, including turning ar
 
 My takeaway is that change is constant. A large auto dealer in a fragmented market was always making improvements, using its company stores as the test kitchen and then sharing best practices with its franchisees. The family approach to business carried on for years after Big Jim passed away, and even after the family sold to Altamont Capital Partners in 2011, because of the strong corporate culture he built. That is the idea behind [Leaders Read](/leaders-read/), where I review the books I learn from.
 
-[Dave: this closing is built from your words. Rewrite any line that does not sound like you.]
 
 Sources for the history: J.D. Byrider About Us (byrider.com/why-byrider/about-us), Byrider Franchise About Us (byriderfranchise.com/about-us), Indiana Wesleyan University DeVoe Report, Spring 2017.
