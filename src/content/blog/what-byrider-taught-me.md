@@ -13,7 +13,7 @@ sources:
 ---
 <figure class="logos">
   <img src="/images/blog/byrider-logo-progression.png" width="1200" height="350" alt="Four Byrider logos in order: the original J.D. Byrider oval with a car, a later blue and gold J.D. Byrider logo, and the current byrider wordmark with an orange arrow, on blue and on black." />
-  <figcaption>The Byrider logo over time. Byrider logos are trademarks of Byrider Franchising Partners, LLC, shown here for historical context.</figcaption>
+  <figcaption>The Byrider logo over time: the J.D. Byrider logos of 1992 and 1995, then the 2019 rebrand, shown on blue and on black (dates per Byrider's own timeline). Byrider logos are trademarks of Byrider Franchising Partners, LLC, shown here for historical context.</figcaption>
 </figure>
 
 ## The lot in Marion
