@@ -15,7 +15,7 @@ I never met him. But when I taught franchisees, the story of that original lot w
 
 ## The classroom
 
-I joined corporate in 2009 and spent the next eight years teaching, consulting, and hosting. Franchisees came from all over the country for two- and three-day classes on sales, service, underwriting, and collections.
+I joined corporate in 2009. In early 2010 I took every training class myself, and by 2013 I was teaching some of them. Franchisees came from all over the country for two- and three-day classes on sales, service, underwriting, and collections. Training also ran through an internal learning management system, which was later upgraded to an external one.
 
 My favorite session was the P&L review. We built budget projections by hand and ran scenarios against different sales and collection targets. It sounds like a cliché, but it worked: it pulled owners out of the day to day and moved them from working in the business to working on it.
 
@@ -29,7 +29,7 @@ Around 2013 the whole corporate team went through Stephen M.R. Covey's Speed of 
 
 Buy here pay here is vertically integrated. A dealership sells the car, and a related finance company often holds the loan. High-risk loans come with a known default rate, so a firm can predict its loss rate and discount the loan paper to match. Then it tracks how the portfolio actually performs against the expected loss curves.
 
-That is why static pool data matters so much. It lets you compare each group of loans to what you expected, month by month. It is also why Byrider's proprietary CRM, Discover, and the Automated Risk Evaluator were such important innovations when they rolled out. [Dave: confirm "early 2000s," since that was before your time at Byrider.]
+That is why static pool data matters so much. It lets you compare each group of loans to what you expected, month by month. It is also why Byrider's proprietary CRM, Discover, and the Automated Risk Evaluator were such important innovations when they rolled out, years before I arrived.
 
 ## The human side of the numbers
 
