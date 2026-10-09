@@ -67,3 +67,9 @@ I never met him, but I spent 2009 to 2017 inside the company he built. I taught 
 
 Nearly a decade after my time at Byrider HQ ended, I still download a new book on Audible every two to three weeks. Every review here is my own take on what a book argues, what stuck with me, and where it fell short.
 (Intro not yet confirmed final by Dave except the meta; he edited the last paragraph. Do not publish the hub until the first review exists.)
+
+Byrider ad campaign change story (Dave, Oct 9, 2026), another change management topic:
+- Circa 2016 Byrider changed its advertising. Dave recalls they hired an agency head from Detroit whose agency was responsible for Little Caesars "Pizza Pizza" and Mazda "Zoom-Zoom" (Dave's recollection, not verified; do not name the agency or those campaigns without a source).
+- The agency head created a traffic light character who said "go, go." It pivoted away from the well-known J.D. Byrider jingle; in some cases "go go" was added after the song.
+- The image Dave sent (cartoon traffic light with a megaphone, "JD Byrider GoGo ad campaign circa 2016") looks like an AI-generated illustration with a caption baked in, not an actual Byrider ad. Do not publish it as the real mascot. A web search for the campaign found nothing useful.
+- Open: where it goes (fourth story in the explainer and retitle "Four Changes", or its own short post), what pushback there was, how it was rolled out to franchisees, what Dave learned.
