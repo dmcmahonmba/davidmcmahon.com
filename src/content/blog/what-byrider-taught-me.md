@@ -65,4 +65,6 @@ In 2017 I moved to the franchisee side and ran four stores, including turning ar
 My takeaway is that change is constant. A large auto dealer in a fragmented market was always making improvements, using its company stores as the test kitchen and then sharing best practices with its franchisees. The family approach to business carried on for years after Big Jim passed away, and even after the family sold to Altamont Capital Partners in 2011, because of the strong corporate culture he built. That is the idea behind [Leaders Read](/leaders-read/), where I review the books I learn from.
 
 
+One more change story, the traffic light that said go, go, is in [Go, Go: What a Traffic Light Taught Me About Change at Byrider](/byrider-go-go-campaign/).
+
 Sources for the history: J.D. Byrider About Us (byrider.com/why-byrider/about-us), Byrider Franchise About Us (byriderfranchise.com/about-us), Indiana Wesleyan University DeVoe Report, Spring 2017.
