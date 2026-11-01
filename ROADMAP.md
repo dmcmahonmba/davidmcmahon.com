@@ -1,23 +1,23 @@
 # davidmcmahon.com roadmap (updated Nov 1, 2026)
 Content detail and source notes live in CONTENT-ROADMAP.md. This file is the working list.
 
-## Decide first
-- [ ] Positioning after the Seer start (mid-November). The hero, resume summary, About page, and schema job title currently say "Fractional Consultant." Decide what the site should say once you are employed there, and when to switch it.
+## Scheduled
+- [ ] Nov 14: update the resume, job titles, hero, About page, and schema job title for the Seer role. New focus: helping businesses with their digital presence and their ability to be seen, believed, and chosen in the new era of AI search.
 
-## Verify (Dave)
-- [ ] Contact form: submit a test at /contact/, confirm it appears in Netlify, Forms, and add an email notification.
-- [ ] GA4: mark generate_lead as a key event; confirm one active user per visit in Realtime.
+## Dave to do
+- [ ] GA4: create the key event for generate_lead (mark it as a key event).
 - [ ] Search Console: request indexing for /leaders-read/, /what-byrider-taught-me/, /byrider-go-go-campaign/; watch the Pages report.
-- [ ] Live-site check of the three new Byrider/Leaders Read pages (Claude can do this on request).
-
-## Needs assets from Dave
-- [ ] Final headshot, 800 x 800 or larger, to replace the placeholder as the first hero frame.
 - [ ] Larger Uncle Rico image.
 - [ ] A real screenshot of the Go Go campaign, if wanted for the post.
 
+## Verified
+- Contact form works (Dave received a submission).
+- New headshot installed (Nov 1): hero first frame, schema image, and link previews.
+
 ## Leaders Read
 - [ ] First review, written by Dave (title, author, listened or read, date finished). Claude then adds the review template, Book review schema, and flips that tile to "Read the review."
-- [ ] Seven tiles are live as "Review coming soon."
+- Hub is grouped into five sections: Leadership, Management, Business and tech, Sports, Biographies and memoirs. Twelve tiles are live as "Review coming soon."
+- Dave's favorites to organize notes on: The Business of Expertise (David C. Baker), Fifty Years of 60 Minutes (Jeff Fager), When the Going Was Good (Graydon Carter), The Anxious Generation (Jonathan Haidt), The Last Folk Hero (Jeff Pearlman), Roll the Calls (Ari Emanuel). Full list in LEADERS-READ-BOOKS.md.
 
 ## Build backlog (Claude)
 - [ ] Compact mobile menu (nav is now eight items and wraps to two rows on phones).

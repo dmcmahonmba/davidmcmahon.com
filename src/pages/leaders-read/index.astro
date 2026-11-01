@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { BOOKS } from '../../data/leaders-read';
+import { SECTIONS } from '../../data/leaders-read';
 const desc = 'Leadership book reviews by David McMahon, inspired by Jim DeVoe Sr., a leader I never met whose systems, team, and culture carried on at Byrider.';
 ---
 <Base title="Leaders Read" description={desc} breadcrumbs={[{ name: 'Leaders Read', path: '/leaders-read/' }]}>
@@ -13,24 +13,32 @@ const desc = 'Leadership book reviews by David McMahon, inspired by Jim DeVoe Sr
     </div>
     <p class="more"><a href="/what-byrider-taught-me/">More on Byrider, Big Jim, and the franchise classroom: What Byrider Taught Me</a> and <a href="/byrider-go-go-campaign/">Go, Go</a></p>
     <h2 class="shelf-h">On the shelf</h2>
-    <ul class="shelf">
-      {BOOKS.map((b) => (
-        <li class="book">
-          {b.status === 'reviewed' && b.slug
-            ? <a href={`/leaders-read/${b.slug}/`}><h3>{b.title}</h3><p class="by">{b.author}</p><p class="tag done">Read the review</p></a>
-            : <div><h3>{b.title}</h3><p class="by">{b.author}</p><p class="tag">Review coming soon</p></div>}
-        </li>
-      ))}
-    </ul>
+    {SECTIONS.map((sec) => (
+      <section class="shelf-sec">
+        <h3 class="sec-h">{sec.name}</h3>
+        <ul class="shelf">
+          {sec.books.map((b) => (
+            <li class="book">
+              {b.status === 'reviewed' && b.slug
+                ? <a href={`/leaders-read/${b.slug}/`}><h4>{b.title}</h4><p class="by">{b.author}</p><p class="tag done">Read the review</p></a>
+                : <div><h4>{b.title}</h4><p class="by">{b.author}</p><p class="tag">Review coming soon</p></div>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
   </div>
 </Base>
 <style>
   .intro{max-width:720px}
+  .more a{color:var(--blue);border-bottom:1.5px solid var(--accent)}
+  .more a:hover{background:rgba(200,162,74,.18)}
   .intro p{margin:0 0 1.1em}
   .shelf-h{margin-top:48px}
   .shelf{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
   .book>div,.book>a{display:block;height:100%;box-sizing:border-box;padding:20px;border:1px solid var(--gray-light);border-top:3px solid var(--accent);background:#fff;color:inherit;text-decoration:none}
-  .book h3{font-family:'Source Serif 4',Georgia,serif;font-size:20px;line-height:1.25;margin:0 0 8px;color:var(--blue)}
+  .sec-h{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue-soft);margin:32px 0 0;font-family:'Inter',sans-serif}
+  .book h4{font-family:'Source Serif 4',Georgia,serif;font-size:20px;line-height:1.25;margin:0 0 8px;color:var(--blue)}
   .book .by{font-size:14px;color:var(--blue-soft);margin:0 0 14px}
   .book .tag{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gray);margin:0}
   .book .tag.done{color:var(--accent-deep)}

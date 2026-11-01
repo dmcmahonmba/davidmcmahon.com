@@ -9,7 +9,7 @@ export const SITE = {
     'David (Dave) McMahon is a Butler University MBA, former Division I football captain, and operating executive. He is a fractional consultant in reputation management, SEO, branding, and AI implementation in Sarasota, Florida.',
   disambiguation:
     'Butler University MBA and former Division I football captain based in Sarasota, Florida. Not the film producer who works with Ken Burns.',
-  image: '/images/david-mcmahon.jpg', // swap for the final headshot
+  image: '/images/david-mcmahon.jpg',
   verification: 'IWE2QITOIALINw1zTFFj3ln_LHzOkm7tdtqlRsJw6mY', // existing Search Console meta tag
   knowsAbout: [
     'Online reputation management',
