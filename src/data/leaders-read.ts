@@ -27,6 +27,8 @@ export const SECTIONS: Section[] = [
     books: [
       soon('The Business of Expertise', 'David C. Baker'),
       soon('The Anxious Generation', 'Jonathan Haidt'),
+      soon('Careless People', 'Sarah Wynn-Williams'),
+      soon('The Nerd Reich', 'Gil Durán'),
     ],
   },
   {

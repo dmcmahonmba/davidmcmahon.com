@@ -16,7 +16,7 @@ Content detail and source notes live in CONTENT-ROADMAP.md. This file is the wor
 
 ## Leaders Read
 - [ ] First review, written by Dave (title, author, listened or read, date finished). Claude then adds the review template, Book review schema, and flips that tile to "Read the review."
-- Hub is grouped into five sections: Leadership, Management, Business and tech, Sports, Biographies and memoirs. Twelve tiles are live as "Review coming soon."
+- Hub is grouped into five sections: Leadership, Management, Business and tech, Sports, Biographies and memoirs. Fourteen tiles are live (Careless People and The Nerd Reich added to Business and tech) as "Review coming soon."
 - Dave's favorites to organize notes on: The Business of Expertise (David C. Baker), Fifty Years of 60 Minutes (Jeff Fager), When the Going Was Good (Graydon Carter), The Anxious Generation (Jonathan Haidt), The Last Folk Hero (Jeff Pearlman), Roll the Calls (Ari Emanuel). Full list in LEADERS-READ-BOOKS.md.
 
 ## Build backlog (Claude)
