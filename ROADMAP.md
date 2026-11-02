@@ -5,7 +5,7 @@ Content detail and source notes live in CONTENT-ROADMAP.md. This file is the wor
 - [ ] Nov 14: update the resume, job titles, hero, About page, and schema job title for the Seer role. New focus: helping businesses with their digital presence and their ability to be seen, believed, and chosen in the new era of AI search.
 
 ## Dave to do
-- [ ] GA4: create the key event for generate_lead (mark it as a key event).
+- [x] GA4: generate_lead marked as a key event (Nov 2).
 - [ ] Search Console: request indexing for /leaders-read/, /what-byrider-taught-me/, /byrider-go-go-campaign/; watch the Pages report.
 - [ ] Larger Uncle Rico image.
 - [ ] A real screenshot of the Go Go campaign, if wanted for the post.
